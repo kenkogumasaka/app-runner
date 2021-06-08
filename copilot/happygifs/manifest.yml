@@ -1,9 +1,9 @@
-# The manifest for the "app-runner-happygif" service.
+# The manifest for the "happygifs" service.
 # Read the full specification for the "Request-Driven Web Service" type at:
 # https://aws.github.io/copilot-cli/docs/manifest/rd-web-service/
 
 # Your service name will be used in naming your resources like log groups, App Runner services, etc.
-name: app-runner-happygif
+name: happygifs
 # The "architecture" of the service you're running.
 type: Request-Driven Web Service
 
@@ -23,9 +23,9 @@ image:
 #     timeout: 5s
 
 # Number of CPU units for the task.
-cpu: 256
+cpu: 1024
 # Amount of memory in MiB used by the task.
-memory: 512
+memory: 2048
 
 # Optional fields for more advanced use-cases.
 #
